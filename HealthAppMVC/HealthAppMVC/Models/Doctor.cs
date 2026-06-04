@@ -1,30 +1,57 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Web;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace HealthAppMVC.Models
 {
+    public enum SpecialisationType
+    {
+        GeneralPhysician,
+        Cardiologist,
+        Dermatologist,
+        Neurologist,
+        Orthopedic,
+        Pediatrician,
+        Psychiatrist,
+        ENT,
+        Gynecologist
+    }
+
     public class Doctor
     {
         public int DoctorId { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Doctor name is required")]
         [StringLength(100)]
         public string FullName { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Specialisation is required")]
         public SpecialisationType Specialisation { get; set; }
 
-        [Required]
-        [Range(0, 50)]
+        [Required(ErrorMessage = "Phone number is required")]
+        [RegularExpression(
+            @"^[0-9]{10}$",
+            ErrorMessage = "Phone number must contain exactly 10 digits")]
+        public string DoctorPhoneNo { get; set; }
+
+        [Required(ErrorMessage = "Email is required")]
+        [EmailAddress(
+            ErrorMessage = "Invalid email format")]
+        [StringLength(100)]
+        public string DoctorEmail { get; set; }
+
+        [Required(ErrorMessage = "Experience is required")]
+        [Range(
+            0,
+            50,
+            ErrorMessage = "Experience must be between 0 and 50 years")]
         public int YearsOfExperience { get; set; }
 
-        [Required]
-        [Range(typeof(decimal), "1", "100000")]
+        [Required(ErrorMessage = "Consultation fee is required")]
+        [Range(
+            1,
+            100000,
+            ErrorMessage = "Consultation fee must be greater than 0")]
         public decimal ConsultationFee { get; set; }
 
-        public bool IsActive { get; set; }
+        public bool IsActive { get; set; } = true;
     }
 }

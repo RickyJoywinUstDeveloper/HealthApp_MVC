@@ -1,21 +1,57 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\310189\\source\\repos\\HealthAppMVC\\",
+  "WorkspaceRootPath": "C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|C:\\Users\\310189\\source\\repos\\HealthAppMVC\\healthappmvc\\models\\specialisationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|solutionrelative:healthappmvc\\models\\specialisationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|c:\\users\\310189\\source\\repos\\sprint 2\\healthappmvc\\healthappmvc\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|solutionrelative:healthappmvc\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|C:\\Users\\310189\\source\\repos\\HealthAppMVC\\healthappmvc\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|c:\\users\\310189\\source\\repos\\sprint 2\\healthappmvc\\healthappmvc\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|solutionrelative:healthappmvc\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|c:\\users\\310189\\source\\repos\\sprint 2\\healthappmvc\\healthappmvc\\app_start\\unityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|solutionrelative:healthappmvc\\app_start\\unityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|c:\\users\\310189\\source\\repos\\sprint 2\\healthappmvc\\healthappmvc\\views\\doctor\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|solutionrelative:healthappmvc\\views\\doctor\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|c:\\users\\310189\\source\\repos\\sprint 2\\healthappmvc\\healthappmvc\\views\\doctor\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|solutionrelative:healthappmvc\\views\\doctor\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|c:\\users\\310189\\source\\repos\\sprint 2\\healthappmvc\\healthappmvc\\views\\doctor\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|solutionrelative:healthappmvc\\views\\doctor\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|c:\\users\\310189\\source\\repos\\sprint 2\\healthappmvc\\healthappmvc\\views\\doctor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|solutionrelative:healthappmvc\\views\\doctor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\healthappmvc\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|solutionrelative:healthappmvc\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\healthappmvc\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|solutionrelative:healthappmvc\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|C:\\Users\\310189\\source\\repos\\HealthAppMVC\\healthappmvc\\repository\\interface\\idoctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\healthappmvc\\services\\interface\\idoctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|solutionrelative:healthappmvc\\services\\interface\\idoctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\healthappmvc\\services\\implementation\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|solutionrelative:healthappmvc\\services\\implementation\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\healthappmvc\\repository\\interface\\idoctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|solutionrelative:healthappmvc\\repository\\interface\\idoctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|c:\\users\\310189\\source\\repos\\healthappmvc\\healthappmvc\\repository\\implementation\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\healthappmvc\\repository\\implementation\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|solutionrelative:healthappmvc\\repository\\implementation\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,59 +62,171 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DoctorRepository.cs",
-              "DocumentMoniker": "C:\\Users\\310189\\source\\repos\\HealthAppMVC\\HealthAppMVC\\Repository\\Implementation\\DoctorRepository.cs",
-              "RelativeDocumentMoniker": "HealthAppMVC\\Repository\\Implementation\\DoctorRepository.cs",
-              "ToolTip": "C:\\Users\\310189\\source\\repos\\HealthAppMVC\\HealthAppMVC\\Repository\\Implementation\\DoctorRepository.cs",
-              "RelativeToolTip": "HealthAppMVC\\Repository\\Implementation\\DoctorRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T17:31:27.954Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IDoctorRepository.cs",
-              "DocumentMoniker": "C:\\Users\\310189\\source\\repos\\HealthAppMVC\\HealthAppMVC\\Repository\\Interface\\IDoctorRepository.cs",
-              "RelativeDocumentMoniker": "HealthAppMVC\\Repository\\Interface\\IDoctorRepository.cs",
-              "ToolTip": "C:\\Users\\310189\\source\\repos\\HealthAppMVC\\HealthAppMVC\\Repository\\Interface\\IDoctorRepository.cs",
-              "RelativeToolTip": "HealthAppMVC\\Repository\\Interface\\IDoctorRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T17:25:20.382Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Doctor.cs",
-              "DocumentMoniker": "C:\\Users\\310189\\source\\repos\\HealthAppMVC\\HealthAppMVC\\Models\\Doctor.cs",
-              "RelativeDocumentMoniker": "HealthAppMVC\\Models\\Doctor.cs",
-              "ToolTip": "C:\\Users\\310189\\source\\repos\\HealthAppMVC\\HealthAppMVC\\Models\\Doctor.cs",
-              "RelativeToolTip": "HealthAppMVC\\Models\\Doctor.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwBwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T17:19:26.665Z",
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\HealthAppMVC\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "HealthAppMVC\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\HealthAppMVC\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "HealthAppMVC\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-04T13:54:36.363Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SpecialisationType.cs",
-              "DocumentMoniker": "C:\\Users\\310189\\source\\repos\\HealthAppMVC\\HealthAppMVC\\Models\\SpecialisationType.cs",
-              "RelativeDocumentMoniker": "HealthAppMVC\\Models\\SpecialisationType.cs",
-              "ToolTip": "C:\\Users\\310189\\source\\repos\\HealthAppMVC\\HealthAppMVC\\Models\\SpecialisationType.cs",
-              "RelativeToolTip": "HealthAppMVC\\Models\\SpecialisationType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T17:16:59.318Z",
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\HealthAppMVC\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "HealthAppMVC\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\HealthAppMVC\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "HealthAppMVC\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-04T13:54:31.721Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\HealthAppMVC\\Views\\Doctor\\Details.cshtml",
+              "RelativeDocumentMoniker": "HealthAppMVC\\Views\\Doctor\\Details.cshtml",
+              "ToolTip": "C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\HealthAppMVC\\Views\\Doctor\\Details.cshtml",
+              "RelativeToolTip": "HealthAppMVC\\Views\\Doctor\\Details.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAEIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-04T13:42:49.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\HealthAppMVC\\Views\\Doctor\\Edit.cshtml",
+              "RelativeDocumentMoniker": "HealthAppMVC\\Views\\Doctor\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\HealthAppMVC\\Views\\Doctor\\Edit.cshtml",
+              "RelativeToolTip": "HealthAppMVC\\Views\\Doctor\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-04T13:41:00.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\HealthAppMVC\\Views\\Doctor\\Create.cshtml",
+              "RelativeDocumentMoniker": "HealthAppMVC\\Views\\Doctor\\Create.cshtml",
+              "ToolTip": "C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\HealthAppMVC\\Views\\Doctor\\Create.cshtml",
+              "RelativeToolTip": "HealthAppMVC\\Views\\Doctor\\Create.cshtml",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAuwGEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-04T13:40:09.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\HealthAppMVC\\Views\\Doctor\\Index.cshtml",
+              "RelativeDocumentMoniker": "HealthAppMVC\\Views\\Doctor\\Index.cshtml",
+              "ToolTip": "C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\HealthAppMVC\\Views\\Doctor\\Index.cshtml",
+              "RelativeToolTip": "HealthAppMVC\\Views\\Doctor\\Index.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAuwGkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-04T13:38:47.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DoctorController.cs",
+              "DocumentMoniker": "C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\HealthAppMVC\\Controllers\\DoctorController.cs",
+              "RelativeDocumentMoniker": "HealthAppMVC\\Controllers\\DoctorController.cs",
+              "ToolTip": "C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\HealthAppMVC\\Controllers\\DoctorController.cs",
+              "RelativeToolTip": "HealthAppMVC\\Controllers\\DoctorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T12:44:13.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DoctorService.cs",
+              "DocumentMoniker": "C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\HealthAppMVC\\Services\\Implementation\\DoctorService.cs",
+              "RelativeDocumentMoniker": "HealthAppMVC\\Services\\Implementation\\DoctorService.cs",
+              "ToolTip": "C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\HealthAppMVC\\Services\\Implementation\\DoctorService.cs",
+              "RelativeToolTip": "HealthAppMVC\\Services\\Implementation\\DoctorService.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAowG4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T09:58:08.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IDoctorService.cs",
+              "DocumentMoniker": "C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\HealthAppMVC\\Services\\Interface\\IDoctorService.cs",
+              "RelativeDocumentMoniker": "HealthAppMVC\\Services\\Interface\\IDoctorService.cs",
+              "ToolTip": "C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\HealthAppMVC\\Services\\Interface\\IDoctorService.cs",
+              "RelativeToolTip": "HealthAppMVC\\Services\\Interface\\IDoctorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T09:56:30.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DoctorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\HealthAppMVC\\Repository\\Implementation\\DoctorRepository.cs",
+              "RelativeDocumentMoniker": "HealthAppMVC\\Repository\\Implementation\\DoctorRepository.cs",
+              "ToolTip": "C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\HealthAppMVC\\Repository\\Implementation\\DoctorRepository.cs",
+              "RelativeToolTip": "HealthAppMVC\\Repository\\Implementation\\DoctorRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwHcBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T09:44:53.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UnityConfig.cs",
+              "DocumentMoniker": "C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\HealthAppMVC\\App_Start\\UnityConfig.cs",
+              "RelativeDocumentMoniker": "HealthAppMVC\\App_Start\\UnityConfig.cs",
+              "ToolTip": "C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\HealthAppMVC\\App_Start\\UnityConfig.cs",
+              "RelativeToolTip": "HealthAppMVC\\App_Start\\UnityConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T05:03:43.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IDoctorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\HealthAppMVC\\Repository\\Interface\\IDoctorRepository.cs",
+              "RelativeDocumentMoniker": "HealthAppMVC\\Repository\\Interface\\IDoctorRepository.cs",
+              "ToolTip": "C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\HealthAppMVC\\Repository\\Interface\\IDoctorRepository.cs",
+              "RelativeToolTip": "HealthAppMVC\\Repository\\Interface\\IDoctorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T17:25:20.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\HealthAppMVC\\Models\\Doctor.cs",
+              "RelativeDocumentMoniker": "HealthAppMVC\\Models\\Doctor.cs",
+              "ToolTip": "C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\HealthAppMVC\\Models\\Doctor.cs",
+              "RelativeToolTip": "HealthAppMVC\\Models\\Doctor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T17:19:26.665Z"
             }
           ]
         }

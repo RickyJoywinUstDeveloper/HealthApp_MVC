@@ -45,6 +45,11 @@ namespace HealthAppMVC
 
             container.RegisterType
                <IPatientService, PatientService>();
+
+            container.RegisterType
+                <IDoctorRepository,DoctorRepository>();
+
+            container.RegisterType<IDoctorService, DoctorService>();
         }
     }
 }

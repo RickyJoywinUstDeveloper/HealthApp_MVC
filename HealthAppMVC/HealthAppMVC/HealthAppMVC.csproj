@@ -241,6 +241,7 @@
     <Compile Include="App_Start\SwaggerConfig.cs" />
     <Compile Include="App_Start\UnityConfig.cs" />
     <Compile Include="App_Start\UnityMvcActivator.cs" />
+    <Compile Include="Controllers\DoctorController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PatientController.cs" />
     <Compile Include="Global.asax.cs">
@@ -249,13 +250,14 @@
     <Compile Include="Models\Doctor.cs" />
     <Compile Include="Models\GenderType.cs" />
     <Compile Include="Models\Patient.cs" />
-    <Compile Include="Models\SpecialisationType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\Implementation\DoctorRepository.cs" />
     <Compile Include="Repository\Implementation\PatientRepository.cs" />
     <Compile Include="Repository\Interface\IDoctorRepository.cs" />
     <Compile Include="Repository\Interface\IPatientRepository.cs" />
+    <Compile Include="Services\Implementation\DoctorService.cs" />
     <Compile Include="Services\Implementation\PatientService.cs" />
+    <Compile Include="Services\Interface\IDoctorService.cs" />
     <Compile Include="Services\Interface\IpatientService.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -338,6 +340,10 @@
     <Content Include="Views\Patient\Edit.cshtml" />
     <Content Include="Views\Patient\Details.cshtml" />
     <Content Include="Views\Patient\Delete.cshtml" />
+    <Content Include="Views\Doctor\Index.cshtml" />
+    <Content Include="Views\Doctor\Create.cshtml" />
+    <Content Include="Views\Doctor\Edit.cshtml" />
+    <Content Include="Views\Doctor\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
