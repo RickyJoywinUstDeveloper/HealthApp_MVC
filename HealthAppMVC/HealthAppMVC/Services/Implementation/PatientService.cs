@@ -45,6 +45,11 @@ namespace HealthAppMVC.Services.Implementation
                     "Email already exists.");
             }
 
+            if (patient.DateOfBirth > DateTime.Today)
+            {
+                throw new Exception("Date of Birth cannot be a future date.");
+            }
+
             patient.CreatedDate = DateTime.Now;
 
             _patientRepository.Add(patient);
@@ -62,22 +67,15 @@ namespace HealthAppMVC.Services.Implementation
                     "Patient not found.");
             }
 
+            if (patient.DateOfBirth > DateTime.Today)
+            {
+                throw new Exception("Date of Birth cannot be a future date.");
+            }
+
             _patientRepository.Update(patient);
         }
 
-        public void DeletePatient(int id)
-        {
-            var patient =
-                _patientRepository.GetById(id);
-
-            if (patient == null)
-            {
-                throw new Exception(
-                    "Patient not found.");
-            }
-
-            _patientRepository.Delete(id);
-        }
+      
 
         public int GetAppointmentCount(
             int patientId)

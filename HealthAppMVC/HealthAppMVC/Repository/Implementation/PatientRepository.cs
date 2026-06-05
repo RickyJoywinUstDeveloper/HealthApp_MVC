@@ -255,27 +255,7 @@ namespace HealthAppMVC.Repository.Implementation
             }
         }
 
-        public void Delete(int id)
-        {
-            using (SqlConnection con =
-                new SqlConnection(_connectionString))
-            {
-                string query =
-                    @"DELETE FROM Patients
-                      WHERE PatientId=@Id";
-
-                SqlCommand cmd =
-                    new SqlCommand(query, con);
-
-                cmd.Parameters.AddWithValue(
-                    "@Id",
-                    id);
-
-                con.Open();
-
-                cmd.ExecuteNonQuery();
-            }
-        }
+       
 
         public bool EmailExists(string email)
         {

@@ -17,7 +17,7 @@ namespace HealthAppMVC.Services.Interface
 
         void UpdatePatient(Patient patient);
 
-        void DeletePatient(int id);
+    
 
         int GetAppointmentCount(int patientId);
     }

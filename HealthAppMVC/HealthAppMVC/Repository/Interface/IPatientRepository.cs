@@ -17,7 +17,7 @@ namespace HealthAppMVC.Repository.Interface
 
         void Update(Patient patient);
 
-        void Delete(int id);
+      
 
         bool EmailExists(string email);
 

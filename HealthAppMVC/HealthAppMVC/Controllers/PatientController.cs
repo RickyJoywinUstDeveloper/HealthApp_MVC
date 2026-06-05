@@ -115,29 +115,6 @@ namespace HealthAppMVC.Controllers
             }
         }
 
-        // GET: Patient/Delete/5
-        public ActionResult Delete(int id)
-        {
-            var patient =
-                _patientService.GetPatientById(id);
-
-            if (patient == null)
-            {
-                return HttpNotFound();
-            }
-
-            return View(patient);
-        }
-
-        // POST: Patient/Delete/5
-        [HttpPost]
-        [ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(int id)
-        {
-            _patientService.DeletePatient(id);
-
-            return RedirectToAction("Index");
-        }
+        
     }
 }
