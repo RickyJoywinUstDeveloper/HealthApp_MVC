@@ -31,8 +31,6 @@ namespace HealthAppMVC.Repository.Implementation
                 string query =
                 @"INSERT INTO HealthRecords
                 (
-                    PatientId,
-                    DoctorId,
                     AppointmentId,
                     VisitDate,
                     Diagnosis,
@@ -41,8 +39,7 @@ namespace HealthAppMVC.Repository.Implementation
                 )
                 VALUES
                 (
-                    @PatientId,
-                    @DoctorId,
+                   
                     @AppointmentId,
                     @VisitDate,
                     @Diagnosis,
@@ -53,13 +50,6 @@ namespace HealthAppMVC.Repository.Implementation
                 SqlCommand cmd =
                     new SqlCommand(query, con);
 
-                cmd.Parameters.AddWithValue(
-                    "@PatientId",
-                    record.PatientId);
-
-                cmd.Parameters.AddWithValue(
-                    "@DoctorId",
-                    record.DoctorId);
 
                 cmd.Parameters.AddWithValue(
                     "@AppointmentId",
@@ -100,16 +90,19 @@ namespace HealthAppMVC.Repository.Implementation
             {
                 string query =
                 @"SELECT
-                    hr.*,
-                    p.FullName AS PatientName,
-                    d.FullName AS DoctorName,
-                    d.Specialisation
+                  hr.*,
+                  p.PatientId,
+                  p.FullName AS PatientName,
+                  d.FullName AS DoctorName,
+                  d.Specialisation
                   FROM HealthRecords hr
+                  INNER JOIN Appointments a
+                  ON hr.AppointmentId = a.AppointmentId
                   INNER JOIN Patients p
-                    ON hr.PatientId = p.PatientId
+                  ON a.PatientId = p.PatientId
                   INNER JOIN Doctors d
-                    ON hr.DoctorId = d.DoctorId
-                  WHERE hr.RecordId=@RecordId";
+                  ON a.DoctorId = d.DoctorId
+                  WHERE hr.HealthRecordId=@RecordId";
 
                 SqlCommand cmd =
                     new SqlCommand(query, con);
@@ -127,17 +120,14 @@ namespace HealthAppMVC.Repository.Implementation
                 {
                     record = new HealthRecord
                     {
-                        RecordId =
-                            Convert.ToInt32(
-                                reader["RecordId"]),
+                        HealthRecordId =
+                           Convert.ToInt32
+                           (reader["HealthRecordId"]),
 
                         PatientId =
-                            Convert.ToInt32(
-                                reader["PatientId"]),
+                          Convert.ToInt32(
+                          reader["PatientId"]),
 
-                        DoctorId =
-                            Convert.ToInt32(
-                                reader["DoctorId"]),
 
                         AppointmentId =
                             Convert.ToInt32(
@@ -169,10 +159,10 @@ namespace HealthAppMVC.Repository.Implementation
                         DoctorName =
                             reader["DoctorName"]
                             .ToString(),
-
                         Specialisation =
-                            reader["Specialisation"]
-                            .ToString()
+                         ((SpecialisationType)
+                          Convert.ToInt32(reader["Specialisation"]))
+                          .ToString()
                     };
                 }
             }
@@ -191,17 +181,20 @@ namespace HealthAppMVC.Repository.Implementation
             {
                 string query =
                 @"SELECT
-                    hr.*,
-                    p.FullName AS PatientName,
-                    d.FullName AS DoctorName,
-                    d.Specialisation
-                  FROM HealthRecords hr
-                  INNER JOIN Patients p
-                    ON hr.PatientId = p.PatientId
-                  INNER JOIN Doctors d
-                    ON hr.DoctorId = d.DoctorId
-                  WHERE hr.PatientId=@PatientId
-                  ORDER BY hr.VisitDate DESC";
+    hr.*,
+
+    p.FullName AS PatientName,
+    d.FullName AS DoctorName,
+    d.Specialisation
+FROM HealthRecords hr
+INNER JOIN Appointments a
+    ON hr.AppointmentId = a.AppointmentId
+INNER JOIN Patients p
+    ON a.PatientId = p.PatientId
+INNER JOIN Doctors d
+    ON a.DoctorId = d.DoctorId
+WHERE a.PatientId=@PatientId
+ORDER BY hr.VisitDate DESC";
 
                 SqlCommand cmd =
                     new SqlCommand(query, con);
@@ -220,18 +213,11 @@ namespace HealthAppMVC.Repository.Implementation
                     records.Add(
                         new HealthRecord
                         {
-                            RecordId =
+                            HealthRecordId =
                                 Convert.ToInt32(
-                                    reader["RecordId"]),
+                                    reader["HealthRecordId"]),
 
-                            PatientId =
-                                Convert.ToInt32(
-                                    reader["PatientId"]),
-
-                            DoctorId =
-                                Convert.ToInt32(
-                                    reader["DoctorId"]),
-
+                          
                             AppointmentId =
                                 Convert.ToInt32(
                                     reader["AppointmentId"]),
@@ -264,8 +250,9 @@ namespace HealthAppMVC.Repository.Implementation
                                 .ToString(),
 
                             Specialisation =
-                                reader["Specialisation"]
-                                .ToString()
+                            ((SpecialisationType)
+                            Convert.ToInt32(reader["Specialisation"]))
+                           .ToString()
                         });
                 }
             }

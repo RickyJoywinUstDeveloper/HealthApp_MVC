@@ -134,16 +134,17 @@ namespace HealthAppMVC.Services.Implementation
                 _appointmentRepository
                 .GetById(appointmentId);
 
-            if (appointment.Status == AppointmentStatus.Completed)
-            {
-                throw new Exception("Completed appointments cannot be cancelled.");
-            }
-
             if (appointment == null)
             {
                 throw new Exception(
                     "Appointment not found.");
             }
+
+            if (appointment.Status == AppointmentStatus.Completed)
+            {
+                throw new Exception("Completed appointments cannot be cancelled.");
+            }
+
 
             if (string.IsNullOrWhiteSpace(reason))
             {

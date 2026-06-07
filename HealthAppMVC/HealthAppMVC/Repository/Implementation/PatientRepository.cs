@@ -57,9 +57,8 @@ namespace HealthAppMVC.Repository.Implementation
                                 reader["DateOfBirth"]),
 
                         Gender =
-    (GenderType)Enum.Parse(
-        typeof(GenderType),
-        reader["Gender"].ToString()),
+   (GenderType)Convert.ToInt32(
+        reader["Gender"]),
 
                         PhoneNumber =
                             reader["PhoneNumber"].ToString(),
@@ -119,9 +118,8 @@ namespace HealthAppMVC.Repository.Implementation
                             Convert.ToDateTime(
                                 reader["DateOfBirth"]),
                         Gender =
-    (GenderType)Enum.Parse(
-        typeof(GenderType),
-        reader["Gender"].ToString()),
+    (GenderType)Convert.ToInt32(
+        reader["Gender"]),
 
                         PhoneNumber =
                             reader["PhoneNumber"].ToString(),
@@ -180,7 +178,7 @@ namespace HealthAppMVC.Repository.Implementation
 
                 cmd.Parameters.AddWithValue(
                     "@Gender",
-                    patient.Gender.ToString());
+                    (int)patient.Gender);
 
                 cmd.Parameters.AddWithValue(
                     "@PhoneNumber",
@@ -234,7 +232,7 @@ namespace HealthAppMVC.Repository.Implementation
 
                 cmd.Parameters.AddWithValue(
                     "@Gender",
-                    patient.Gender.ToString());
+                    (int)patient.Gender);
 
                 cmd.Parameters.AddWithValue(
                     "@PhoneNumber",

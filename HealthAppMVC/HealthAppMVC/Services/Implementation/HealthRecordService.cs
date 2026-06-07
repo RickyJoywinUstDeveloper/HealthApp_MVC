@@ -77,12 +77,7 @@ namespace HealthAppMVC.Services.Implementation
                     "Health record already exists for this appointment.");
             }
 
-            record.PatientId =
-                appointment.PatientId;
-
-            record.DoctorId =
-                appointment.DoctorId;
-
+           
             record.VisitDate =
                 DateTime.Now;
 

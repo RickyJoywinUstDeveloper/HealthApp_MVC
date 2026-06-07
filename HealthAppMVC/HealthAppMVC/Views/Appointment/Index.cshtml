@@ -68,18 +68,13 @@
                     }
 
 
-
                     @if (item.Status != AppointmentStatus.Completed &&
-     item.Status != AppointmentStatus.Cancelled)
+                        item.Status != AppointmentStatus.Cancelled)
                     {
                         @Html.ActionLink(
                             "Cancel",
-                            "UpdateStatus",
-                            new
-                            {
-                                id = item.AppointmentId,
-                                status = AppointmentStatus.Cancelled
-                            },
+                            "Cancel",
+                            new { id = item.AppointmentId },
                             new { @class = "btn btn-danger btn-sm" })
                     }
 

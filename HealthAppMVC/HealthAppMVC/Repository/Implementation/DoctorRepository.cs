@@ -51,11 +51,9 @@ namespace HealthAppMVC.Repository.Implementation
                             reader["FullName"].ToString(),
 
                         Specialisation =
-                            (SpecialisationType)
-                            Enum.Parse(
-                                typeof(SpecialisationType),
-                                reader["Specialisation"]
-                                .ToString()),
+                             (SpecialisationType)
+                             Convert.ToInt32(
+                             reader["Specialisation"]),
 
                         DoctorPhoneNo =
                             reader["DoctorPhoneNo"]
@@ -119,11 +117,9 @@ namespace HealthAppMVC.Repository.Implementation
                             reader["FullName"].ToString(),
 
                         Specialisation =
-                            (SpecialisationType)
-                            Enum.Parse(
-                                typeof(SpecialisationType),
-                                reader["Specialisation"]
-                                .ToString()),
+                        (SpecialisationType)
+                        Convert.ToInt32(
+                        reader["Specialisation"]),
 
                         DoctorPhoneNo =
                             reader["DoctorPhoneNo"]
@@ -187,7 +183,7 @@ namespace HealthAppMVC.Repository.Implementation
 
                 cmd.Parameters.AddWithValue(
                     "@Specialisation",
-                    doctor.Specialisation.ToString());
+                     (int)doctor.Specialisation);
 
                 cmd.Parameters.AddWithValue(
                     "@DoctorPhoneNo",
@@ -245,7 +241,7 @@ namespace HealthAppMVC.Repository.Implementation
 
                 cmd.Parameters.AddWithValue(
                     "@Specialisation",
-                    doctor.Specialisation.ToString());
+                    (int)doctor.Specialisation);
 
                 cmd.Parameters.AddWithValue(
                     "@DoctorPhoneNo",
@@ -322,7 +318,7 @@ namespace HealthAppMVC.Repository.Implementation
 
                 cmd.Parameters.AddWithValue(
                     "@Specialisation",
-                    specialisation.ToString());
+                     (int)specialisation);
 
                 con.Open();
 
@@ -341,11 +337,9 @@ namespace HealthAppMVC.Repository.Implementation
                             reader["FullName"].ToString(),
 
                         Specialisation =
-                            (SpecialisationType)
-                            Enum.Parse(
-                                typeof(SpecialisationType),
-                                reader["Specialisation"]
-                                .ToString()),
+                             (SpecialisationType)
+                             Convert.ToInt32(
+                             reader["Specialisation"]),
 
                         DoctorPhoneNo =
                             reader["DoctorPhoneNo"]

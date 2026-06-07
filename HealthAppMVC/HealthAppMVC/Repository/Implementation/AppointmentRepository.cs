@@ -108,10 +108,9 @@ namespace HealthAppMVC.Repository.Implementation
                             .ToString(),
 
                         Status =
-                          (AppointmentStatus)
-                          Enum.Parse(
-                          typeof(AppointmentStatus),
-                          reader["Status"].ToString()),
+                        (AppointmentStatus)
+                        Convert.ToInt32(
+                        reader["Status"]),
 
                         CancellationReason =
                             reader["CancellationReason"]
@@ -173,7 +172,7 @@ namespace HealthAppMVC.Repository.Implementation
 
                 cmd.Parameters.AddWithValue(
                     "@Status",
-                    appointment.Status.ToString());
+                     (int)appointment.Status);
 
                 cmd.Parameters.AddWithValue(
                     "@CancellationReason",
@@ -212,7 +211,7 @@ namespace HealthAppMVC.Repository.Implementation
 
                 cmd.Parameters.AddWithValue(
                     "@Status",
-                    status.ToString());
+                    (int)status);
 
                 cmd.Parameters.AddWithValue(
                     "@Reason",
@@ -412,11 +411,9 @@ namespace HealthAppMVC.Repository.Implementation
                     .ToString(),
 
                 Status =
-                    (AppointmentStatus)
-                    Enum.Parse(
-                        typeof(AppointmentStatus),
-                        reader["Status"]
-                        .ToString()),
+                   (AppointmentStatus)
+                   Convert.ToInt32(
+                   reader["Status"]),
 
                 CancellationReason =
                     reader["CancellationReason"]
