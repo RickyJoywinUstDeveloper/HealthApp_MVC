@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|c:\\users\\310189\\source\\repos\\sprint 2\\healthappmvc\\healthappmvc\\views\\healthrecord\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|solutionrelative:healthappmvc\\views\\healthrecord\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|c:\\users\\310189\\source\\repos\\sprint 2\\healthappmvc\\healthappmvc\\repository\\implementation\\healthrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|solutionrelative:healthappmvc\\repository\\implementation\\healthrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|c:\\users\\310189\\source\\repos\\sprint 2\\healthappmvc\\healthappmvc\\controllers\\healthrecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|solutionrelative:healthappmvc\\controllers\\healthrecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|c:\\users\\310189\\source\\repos\\sprint 2\\healthappmvc\\healthappmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|solutionrelative:healthappmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B9A05AC-5EA4-44AB-B0DC-F92EBE5F306E}|HealthAppMVC\\HealthAppMVC.csproj|c:\\users\\310189\\source\\repos\\sprint 2\\healthappmvc\\healthappmvc\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,51 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "History.cshtml",
-              "DocumentMoniker": "C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\HealthAppMVC\\Views\\HealthRecord\\History.cshtml",
-              "RelativeDocumentMoniker": "HealthAppMVC\\Views\\HealthRecord\\History.cshtml",
-              "ToolTip": "C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\HealthAppMVC\\Views\\HealthRecord\\History.cshtml",
-              "RelativeToolTip": "HealthAppMVC\\Views\\HealthRecord\\History.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\HealthAppMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "HealthAppMVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\HealthAppMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "HealthAppMVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-07T14:27:13.19Z",
+              "WhenOpened": "2026-06-08T03:49:01.357Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HealthRecordRepository.cs",
-              "DocumentMoniker": "C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\HealthAppMVC\\Repository\\Implementation\\HealthRecordRepository.cs",
-              "RelativeDocumentMoniker": "HealthAppMVC\\Repository\\Implementation\\HealthRecordRepository.cs",
-              "ToolTip": "C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\HealthAppMVC\\Repository\\Implementation\\HealthRecordRepository.cs",
-              "RelativeToolTip": "HealthAppMVC\\Repository\\Implementation\\HealthRecordRepository.cs",
-              "ViewState": "AgIAAOQAAAAAAAAAAAAkwP4AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-07T14:11:59.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HealthRecordController.cs",
-              "DocumentMoniker": "C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\HealthAppMVC\\Controllers\\HealthRecordController.cs",
-              "RelativeDocumentMoniker": "HealthAppMVC\\Controllers\\HealthRecordController.cs",
-              "ToolTip": "C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\HealthAppMVC\\Controllers\\HealthRecordController.cs",
-              "RelativeToolTip": "HealthAppMVC\\Controllers\\HealthRecordController.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAgwEsAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-07T14:07:41.765Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "PatientController.cs",
               "DocumentMoniker": "C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\HealthAppMVC\\Controllers\\PatientController.cs",
               "RelativeDocumentMoniker": "HealthAppMVC\\Controllers\\PatientController.cs",
               "ToolTip": "C:\\Users\\310189\\source\\repos\\Sprint 2\\HealthAppMVC\\HealthAppMVC\\Controllers\\PatientController.cs",
               "RelativeToolTip": "HealthAppMVC\\Controllers\\PatientController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-07T13:53:09.704Z",
               "EditorCaption": ""
